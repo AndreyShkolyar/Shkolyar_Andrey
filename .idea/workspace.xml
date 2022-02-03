@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc890d5-4598-410a-83ba-594b88bead49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mendeleevStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1-konnaya-army.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushkinskaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sadovaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/stela.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tachanka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vk-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/zmievckaya-balka.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
@@ -56,7 +62,13 @@
       <workItem from="1643554043200" duration="1374000" />
       <workItem from="1643653294637" duration="13022000" />
       <workItem from="1643694197155" duration="22376000" />
-      <workItem from="1643720818496" duration="348000" />
+      <workItem from="1643720818496" duration="1136000" />
+      <workItem from="1643724626598" duration="258000" />
+      <workItem from="1643730858906" duration="656000" />
+      <workItem from="1643781029050" duration="595000" />
+      <workItem from="1643824605802" duration="148000" />
+      <workItem from="1643824766866" duration="9640000" />
+      <workItem from="1643864529449" duration="23305000" />
     </task>
     <servers />
   </component>

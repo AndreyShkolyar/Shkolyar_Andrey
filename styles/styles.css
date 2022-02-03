@@ -3,57 +3,64 @@ body {
 }
 
 header {
+    width: 100%;
+    height: 105px;
+    top: 0;
     background-color: cornflowerblue;
+    position: fixed;
+    z-index: 1000;
     border-bottom: 2px solid black;
-    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    margin-left: 3.5%;
+    width: 100px;
 }
 
 .header_menu {
-    margin-left: 10%;
     list-style-type: none;
 }
 
 .header_menu a {
     text-decoration: none;
-    display: block;
-    margin: 2%;
     color: azure;
 }
 
-footer {
-    position: absolute;
-    left: calc(100%/3);
-    bottom: 0;
-    width: 100%;
-    height: 80px;
+.about_me {
+    margin-top: 105px;
+    padding: 1%;
+    display: flex;
 }
 
-div {
-    margin-left: 2%;
-}
-
-.logo, .photo {
-    display: block;
-    float: left;
+.my_photo {
     margin-left: auto;
     margin-right: auto;
-}
-
-.logo {
-    width: 100px;
-}
-
-.photo {
     border: cornflowerblue solid 4px;
-    width: 33%;
+    max-width: 25%;
 }
 
 h1 {
+    margin: 0;
+    text-align: center;
+    color: #4775ff;
+    font-size: xx-large;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
     color: #4775ff;
 }
 
+table {
+    margin: auto;
+    height: 20%;
+    top: 50%;
+}
+
 table, tr, td {
-    margin: 2%;
     text-align: center;
     table-layout: fixed;
     width: 60%;
@@ -63,6 +70,80 @@ td {
     font-size: larger;
 }
 
+footer {
+    background-color: Gainsboro;
+    left: calc(100%/3);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts {
+    margin: auto;
+}
+
 .contacts li {
     display: inline-block;
+}
+
+.contacts li img {
+    max-height: 40px;
+}
+
+.monuments {
+    text-align: center;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.monuments .photo-content, .streets .photo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.photo-content {
+    margin: 2%;
+}
+
+.monument-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 230px;
+    max-height: 170px;
+}
+
+.top-left {
+    grid-area: top-left;
+}
+
+.top-right {
+    grid-area: top-right;
+}
+
+.bottom-left {
+    grid-area: bottom-left;
+}
+
+.bottom-right {
+    grid-area: bottom-right;
+}
+
+.streets {
+    text-align: center;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'top-left top-right'
+    'bottom-left bottom-right';
+}
+
+.street-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 430px;
+    max-height: 310px;
 }
