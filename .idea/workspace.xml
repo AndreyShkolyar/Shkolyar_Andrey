@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc890d5-4598-410a-83ba-594b88bead49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/1-konnaya-army.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mail-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pushkinskaya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sadovaya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/stela.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tachanka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/vk-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zmievckaya-balka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mendeleev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/telegram-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
@@ -68,7 +62,14 @@
       <workItem from="1643781029050" duration="595000" />
       <workItem from="1643824605802" duration="148000" />
       <workItem from="1643824766866" duration="9640000" />
-      <workItem from="1643864529449" duration="23305000" />
+      <workItem from="1643864529449" duration="24302000" />
+      <workItem from="1643949763360" duration="204000" />
+      <workItem from="1644010407423" duration="46000" />
+      <workItem from="1644045884738" duration="29100000" />
+      <workItem from="1644085911141" duration="354000" />
+      <workItem from="1644086282647" duration="743000" />
+      <workItem from="1644087438564" duration="44000" />
+      <workItem from="1644133308424" duration="869000" />
     </task>
     <servers />
   </component>

@@ -1,85 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: azure;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    background-color: #eef2f4;
 }
 
-header {
-    width: 100%;
-    height: 105px;
-    top: 0;
-    background-color: cornflowerblue;
-    position: fixed;
-    z-index: 1000;
-    border-bottom: 2px solid black;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.logo {
-    margin-left: 3.5%;
-    width: 100px;
-}
-
-.header_menu {
-    list-style-type: none;
-}
-
-.header_menu a {
-    text-decoration: none;
-    color: azure;
-}
-
-.about_me {
-    margin-top: 105px;
-    padding: 1%;
-    display: flex;
-}
-
-.my_photo {
-    margin-left: auto;
-    margin-right: auto;
-    border: cornflowerblue solid 4px;
-    max-width: 25%;
+h1, h2 {
+    margin: 0;
+    text-align: center;
+    color: #4775ff;
 }
 
 h1 {
-    margin: 0;
-    text-align: center;
-    color: #4775ff;
-    font-size: xx-large;
+    font-size: 30px;
 }
 
-h2 {
-    margin: 0;
-    text-align: center;
-    color: #4775ff;
+hr {
+    width: 100%;
+}
+/* header */
+.site_header {
+    width: 100%;
+    height: 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #0078d2;
+    position: fixed;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .mendeleev {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-height: 100px;
+}
+
+.mendeleev:hover {
+    transform: scale(1.1);
+}
+
+/*main about_me*/
+.about_me {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my_photo {
+    border: cornflowerblue solid 4px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 table {
-    margin: auto;
-    height: 20%;
-    top: 50%;
-}
-
-table, tr, td {
-    text-align: center;
+    max-height: 300px;
+    max-width: 900px;
+    width: 100%;
     table-layout: fixed;
-    width: 60%;
+    font-size: 20px;
+    text-align: center;
 }
 
 td {
-    font-size: larger;
+    vertical-align: top;
 }
 
-footer {
+/*footer*/
+.site_footer {
     background-color: Gainsboro;
-    left: calc(100%/3);
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.contacts {
-    margin: auto;
+.top_button {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: white;
+    background-color: #0078d2;
+    padding: 2px;
+}
+
+.top_button:hover {
+    transform: scale(1.2);
 }
 
 .contacts li {
@@ -90,6 +103,8 @@ footer {
     max-height: 40px;
 }
 
+/* GRID */
+/* monuments */
 .monuments {
     text-align: center;
     padding: 2%;
@@ -114,6 +129,7 @@ footer {
     max-height: 170px;
 }
 
+/* streets */
 .top-left {
     grid-area: top-left;
 }
@@ -146,4 +162,72 @@ footer {
     margin-right: auto;
     max-width: 430px;
     max-height: 310px;
+}
+
+/* media */
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    h1 {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .site_header {
+        height: 90px;
+    }
+    .logo, .mendeleev {
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        max-height: 60px;
+    }
+    .about_me {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .my_photo {
+        margin-left: auto;
+        margin-right: auto;
+        border: cornflowerblue solid 2px;
+        max-height: 250px;
+        max-width: 250px;
+    }
+    table {
+        font-size: 14px;
+    }
+
+    .monuments {
+        grid-template-columns: auto;
+    }
+
+    .streets {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+                'top-left'
+                'top-right'
+                'bottom-left'
+                'bottom-right';
+    }
+    .street-image {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    .monuments {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .streets {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'top-left'
+        'top-right'
+        'bottom-left'
+        'bottom-right';
+    }
 }

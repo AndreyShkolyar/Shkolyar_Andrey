@@ -2,29 +2,28 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
     <title>Школяр Андрей</title>
 </head>
 <body>
-<header>
+<header class="site_header">
     <img class="logo" src="images/logo.png" alt="Герб Ростова-на-Дону" title="Герб Ростова-на-Дону">
-    <nav>
-        <ul class="header_menu">
-            <li><a href="pages/table.html" target="_blank" title="Фрагмент таблицы Менделеева">Фрагмент таблицы Менделеева</a></li>
-        </ul>
-    </nav>
+    <a href="pages/table.html" target="_blank" title="Фрагмент таблицы Менделеева">
+        <img class="mendeleev" src="images/mendeleev.jpg" alt="Фрагмент таблицы Менделеева" title="Фрагмент таблицы Менделеева">
+    </a>
 </header>
 <main>
     <section class="about_me">
         <img class="my_photo" src="images/my_photo.jpg" alt="Фото" title="Мое фото">
         <table>
-            <caption><h1>Школяр Андрей</h1></caption>
+            <caption><h2>Школяр Андрей</h2></caption>
             <tr>
                 <td>
                     <p>
                         <b>О себе:</b><br>
-                        Мне 27 лет, живу в Ростове-на-Дону. Работаю в Факте чуть больше года.
+                        Мне 27 лет, живу в Ростове-на-Дону. Работаю в Факте с октября 2020 года.
                         Решил сменить сферу деятельности, поэтому принял участие в обучении в Факт.Школе.
                     </p>
                 </td>
@@ -52,7 +51,6 @@
         <figure class="photo-content">
             <img class="monument-image" src="images/stela.jpg" alt="Стела Освободителям Ростова">
             <figcaption>Стела «Освободителям Ростова».<br> Возведена на центральной площади Ростова-на-Дону в честь освобождения города от нацистских войск. Торжественное открытие памятника состоялось 8 мая 1983 года. Представляет собой стелу высотой 72 метра, со стилизованным позолоченным изображением греческой богини Ники, одетой в плащ-палатку.
-
             </figcaption>
         </figure>
         <figure class="photo-content">
@@ -87,11 +85,13 @@
     </section>
     <hr>
 </main>
-<footer>
-        <ul class="contacts">
-            <li><a href="mailto:andrey.shkolyar.studiofact@gmail.com"><img src="images/mail-icon.png" alt="Электронная почта"> </a></li>
-            <li><a href="https://vk.com/comradeosmolovsky" target="_blank"><img src="images/vk-icon.png" alt="VK" title="VK"></a></li>
-        </ul>
+<footer class="site_footer">
+    <a href="javascript:scroll(0,0)" class="top_button">Наверх</a>
+    <ul class="contacts">
+        <li><a href="mailto:andrey.shkolyar.studiofact@gmail.com"><img src="images/mail-icon.png" alt="Электронная почта"> </a></li>
+        <li><a href="https://vk.com/comradeosmolovsky" target="_blank"><img src="images/vk-icon.png" alt="VK" title="VK"></a></li>
+        <li><a href="https://t.me/ashkolyar" target="_blank"><img src="images/telegram-icon.png" alt="Telegram" title="Telegram"></a></li>
+    </ul>
 </footer>
 </body>
 </html>
