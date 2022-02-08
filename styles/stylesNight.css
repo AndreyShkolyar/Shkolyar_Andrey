@@ -1,0 +1,25 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+h1, h2 {
+    color: yellow;
+}
+
+.site_header {
+    background-image: url("../images/moonlightnight.jpg");
+    border-bottom: 2px solid white;
+}
+
+.my_photo {
+    border: yellow solid 4px;
+}
+
+.site_footer {
+    background-color: #696969;
+}
+
+.top_button {
+    background-color: black;
+}

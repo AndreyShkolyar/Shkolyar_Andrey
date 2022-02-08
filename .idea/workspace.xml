@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc890d5-4598-410a-83ba-594b88bead49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/mendeleev.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/telegram-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/moonlightnight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sunnyday.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/stylesNight.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="24Q9J7kcWue7dlGZ5jhud2KreAl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -70,6 +74,11 @@
       <workItem from="1644086282647" duration="743000" />
       <workItem from="1644087438564" duration="44000" />
       <workItem from="1644133308424" duration="869000" />
+      <workItem from="1644210060787" duration="696000" />
+      <workItem from="1644254093920" duration="1031000" />
+      <workItem from="1644256572359" duration="4122000" />
+      <workItem from="1644260841972" duration="1436000" />
+      <workItem from="1644294210231" duration="2430000" />
     </task>
     <servers />
   </component>

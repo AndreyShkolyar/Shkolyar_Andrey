@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
-    background-color: #eef2f4;
+    background-color: white;
 }
 
 h1, h2 {
@@ -30,7 +30,7 @@ hr {
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: #0078d2;
+    background-image: url("../images/sunnyday.jpg");
     position: fixed;
     border-bottom: 2px solid black;
     display: flex;
