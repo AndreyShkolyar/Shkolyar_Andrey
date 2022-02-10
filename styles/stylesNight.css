@@ -12,6 +12,10 @@ h1, h2 {
     border-bottom: 2px solid white;
 }
 
+.navigation_page {
+    color: yellow;
+}
+
 .my_photo {
     border: yellow solid 4px;
 }

@@ -1,25 +1,6 @@
 <?php
-$serverHour = date('H');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
-    <? if ($serverHour >= 20 || $serverHour < 8) {?>
-    <link rel="stylesheet" href="styles/stylesNight.css">
-    <? } ?>
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
-    <title>Школяр Андрей</title>
-</head>
-<body>
-<header class="site_header">
-    <img class="logo" src="images/logo.png" alt="Герб Ростова-на-Дону" title="Герб Ростова-на-Дону">
-    <a href="pages/table.html" target="_blank" title="Фрагмент таблицы Менделеева">
-        <img class="mendeleev" src="images/mendeleev.jpg" alt="Фрагмент таблицы Менделеева" title="Фрагмент таблицы Менделеева">
-    </a>
-</header>
 <main>
     <section class="about_me">
         <img class="my_photo" src="images/my_photo.jpg" alt="Фото" title="Мое фото">
@@ -37,7 +18,6 @@ $serverHour = date('H');
                     <p>
                         <b>О школе:</b><br>
                         Обучение в школе нравится. Поначалу не всегда успевал за темпом занятия, сейчас влился в процесс.
-                        Очень жду начало занятий по PHP, т.к. в программировании интересен именно backend.
                     </p>
                 </td>
             </tr>
@@ -91,13 +71,6 @@ $serverHour = date('H');
     </section>
     <hr>
 </main>
-<footer class="site_footer">
-    <a href="javascript:scroll(0,0)" class="top_button">Наверх</a>
-    <ul class="contacts">
-        <li><a href="mailto:andrey.shkolyar.studiofact@gmail.com"><img src="images/mail-icon.png" alt="Электронная почта"> </a></li>
-        <li><a href="https://vk.com/comradeosmolovsky" target="_blank"><img src="images/vk-icon.png" alt="VK" title="VK"></a></li>
-        <li><a href="https://t.me/ashkolyar" target="_blank"><img src="images/telegram-icon.png" alt="Telegram" title="Telegram"></a></li>
-    </ul>
-</footer>
-</body>
-</html>
+<?php
+include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
+?>

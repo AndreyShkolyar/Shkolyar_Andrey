@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 140px 0 0;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     background-color: white;
@@ -44,13 +44,31 @@ hr {
     max-height: 100px;
 }
 
+.logo:hover {
+    transform: scale(1.1);
+}
+
 .mendeleev:hover {
     transform: scale(1.1);
 }
 
+.navigation-list {
+    vertical-align: center;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navigation_page {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation_page:hover {
+    border-bottom: 1px solid;
+}
 /*main about_me*/
 .about_me {
-    margin-top: 140px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -80,19 +98,6 @@ td {
     height: 80px;
     display: flex;
     justify-content: space-evenly;
-}
-
-.top_button {
-    margin-top: auto;
-    margin-bottom: auto;
-    text-decoration: none;
-    color: white;
-    background-color: #0078d2;
-    padding: 2px;
-}
-
-.top_button:hover {
-    transform: scale(1.2);
 }
 
 .contacts li {
@@ -166,6 +171,9 @@ td {
 
 /* media */
 @media screen and (min-width: 320px) and (max-width: 426px) {
+    body {
+        margin: 100px 0 0;
+    }
     h1 {
         font-size: 17px;
     }
@@ -181,9 +189,11 @@ td {
         margin-right: 30px;
         max-height: 60px;
     }
+    .navigation_page {
+        font-size: 7px;
+    }
     .about_me {
         flex-direction: column;
-        margin-top: 100px;
     }
     .my_photo {
         margin-left: auto;

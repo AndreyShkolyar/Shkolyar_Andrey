@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc890d5-4598-410a-83ba-594b88bead49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/moonlightnight.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sunnyday.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/stylesNight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controlStructures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mendeleevTable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/table.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/stylesNight.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stylesNight.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,12 @@
       <workItem from="1644254093920" duration="1031000" />
       <workItem from="1644256572359" duration="4122000" />
       <workItem from="1644260841972" duration="1436000" />
-      <workItem from="1644294210231" duration="2430000" />
+      <workItem from="1644294210231" duration="2601000" />
+      <workItem from="1644302589622" duration="37000" />
+      <workItem from="1644414298462" duration="15000" />
+      <workItem from="1644427771407" duration="1232000" />
+      <workItem from="1644429327820" duration="10191000" />
+      <workItem from="1644468296117" duration="3154000" />
     </task>
     <servers />
   </component>
