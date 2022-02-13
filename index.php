@@ -1,5 +1,26 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
+
+$myBirthDate = '04.10.1994';
+$serverTime = time();
+$myLifeDays = floor(($serverTime - strtotime($myBirthDate)) / 86400);
+
+$aboutMe = 'Мне 27 лет, живу в Ростове-на-Дону. Работаю в Факте с октября 2020 года.<br>Решил сменить сферу деятельности, поэтому принял участие в обучении в Факт.Школе.';
+$aboutMeArray = explode('. ',$aboutMe);
+$colors = ['red', 'blue', 'green', 'yellow', 'orange', 'aquamarine'];
+$colorIndex = array_rand($colors);
+$aboutMeArray[0] = "<span style=\"color:$colors[$colorIndex]\">$aboutMeArray[0]</span>";
+$aboutMe = implode('. ', $aboutMeArray);
+
+$aboutSchool = 'Обучение в школе нравится. Поначалу не всегда успевал за темпом занятия, сейчас влился в процесс.';
+$aboutSchoolArray = explode(' ', $aboutSchool);
+$colorIndex2 = array_rand($colors);
+foreach ($aboutSchoolArray as $key => &$value) {
+    if (($key + 1) % 2 == 0) {
+        $value = "<span style=\"color:$colors[$colorIndex]\">$value</span>";
+    } else $value = "<span style=\"color:$colors[$colorIndex2]\">$value</span>";
+}
+$aboutSchool = implode(' ', $aboutSchoolArray);
 ?>
 <main>
     <section class="about_me">
@@ -8,17 +29,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
             <caption><h2>Школяр Андрей</h2></caption>
             <tr>
                 <td>
-                    <p>
-                        <b>О себе:</b><br>
-                        Мне 27 лет, живу в Ростове-на-Дону. Работаю в Факте с октября 2020 года.
-                        Решил сменить сферу деятельности, поэтому принял участие в обучении в Факт.Школе.
-                    </p>
+                    <p><?= $aboutMe ?></p>
+                    <p><b>Дата рождения - </b> <?= $myBirthDate; ?> <br>
+                        <b>Количество дней - </b> <?=  $myLifeDays; ?></p>
                 </td>
                 <td>
-                    <p>
-                        <b>О школе:</b><br>
-                        Обучение в школе нравится. Поначалу не всегда успевал за темпом занятия, сейчас влился в процесс.
-                    </p>
+                    <p><?= $aboutSchool ?></p>
                 </td>
             </tr>
         </table>
@@ -72,5 +88,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     <hr>
 </main>
 <?php
+$siteContent = file_get_contents(__FILE__);
 include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
 ?>
