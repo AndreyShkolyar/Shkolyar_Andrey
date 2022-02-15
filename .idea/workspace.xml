@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc890d5-4598-410a-83ba-594b88bead49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/addtask(14.02.2022).php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Опрос.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlStructures.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlStructures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +98,17 @@
       <workItem from="1644649715528" duration="9904000" />
       <workItem from="1644661184736" duration="32000" />
       <workItem from="1644739336970" duration="1022000" />
-      <workItem from="1644742315451" duration="7207000" />
+      <workItem from="1644742315451" duration="7404000" />
+      <workItem from="1644757237524" duration="31000" />
+      <workItem from="1644816011052" duration="1357000" />
+      <workItem from="1644830812408" duration="474000" />
+      <workItem from="1644844080292" duration="206000" />
+      <workItem from="1644847304535" duration="51000" />
+      <workItem from="1644847983037" duration="1037000" />
+      <workItem from="1644849135357" duration="23000" />
+      <workItem from="1644856315988" duration="53000" />
+      <workItem from="1644859551673" duration="9049000" />
+      <workItem from="1644923016246" duration="301000" />
     </task>
     <servers />
   </component>

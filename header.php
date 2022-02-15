@@ -1,5 +1,5 @@
 <?php
-$serverHour = date('H');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -7,9 +7,7 @@ $serverHour = date('H');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
-    <? if ($serverHour >= 20 || $serverHour < 8) {?>
-        <link rel="stylesheet" href="styles/stylesNight.css">
-    <? } ?>
+    <?php timesOfDay() ?>
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
     <title>Школяр Андрей</title>
 </head>
