@@ -18,10 +18,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
     </a>
     <nav class="navigation">
         <ul class="navigation-list">
+            <li><a class="navigation_page" href="mendeleevTable.html" target="_blank" title="Таблица Менделеева">Таблица Менделеева</a></li>
             <li><a class="navigation_page" href="controlStructures.php" target="_blank" title="Перейти к заданию">Циклы PHP</a></li>
+            <li><a class="navigation_page" href="" target="_blank" title="Доп. задание">Дополнительное задание (16.02.2022)</a></li>
         </ul>
     </nav>
-    <a href="mendeleevTable.html" target="_blank" title="Фрагмент таблицы Менделеева">
-        <img class="mendeleev" src="images/mendeleev.jpg" alt="Фрагмент таблицы Менделеева" title="Фрагмент таблицы Менделеева">
-    </a>
+    <a class="auth_link" href="authorization.php" target="_blank" title="Авторизация">Авторизация</a>
 </header>

@@ -54,3 +54,14 @@ function pageCount($page, $whatToCount) {
         return $pageVowelsCount;
     } else return 0;
 }
+
+function authorization() {
+    if (!empty($_POST['login']) || !empty($_POST['password'])) {
+        $_POST['login'] = htmlspecialchars($_POST['login']);
+        include $_SERVER['DOCUMENT_ROOT'] . '/users.php';
+        if (in_array($_POST['login'], $users) && $_POST['password'] == $passwords[array_search($_POST['login'], $users)]) {
+            $_POST['password'] = md5($_POST['password']);
+            return true;
+        } else return false;
+    }
+}

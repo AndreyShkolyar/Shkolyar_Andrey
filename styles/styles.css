@@ -37,7 +37,7 @@ hr {
     justify-content: space-between;
 }
 
-.logo, .mendeleev {
+.logo {
     margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
@@ -48,10 +48,6 @@ hr {
     transform: scale(1.1);
 }
 
-.mendeleev:hover {
-    transform: scale(1.1);
-}
-
 .navigation-list {
     vertical-align: center;
     padding: 0;
@@ -59,12 +55,23 @@ hr {
     display: inline-block;
 }
 
-.navigation_page {
+.navigation_page, .auth_link {
     color: white;
     text-decoration: none;
 }
 
 .navigation_page:hover {
+    border-bottom: 1px solid;
+}
+
+.auth_link {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.auth_link:hover {
     border-bottom: 1px solid;
 }
 /*main about_me*/
@@ -79,7 +86,7 @@ hr {
     max-width: 300px;
 }
 
-table {
+.about-me-table {
     max-height: 300px;
     max-width: 900px;
     width: 100%;
@@ -88,7 +95,7 @@ table {
     text-align: center;
 }
 
-td {
+.about-me-table td {
     vertical-align: top;
 }
 
@@ -240,4 +247,26 @@ td {
         'bottom-left'
         'bottom-right';
     }
+}
+
+/* Авторизация */
+.auth-table {
+    margin: auto;
+}
+
+.auth-error-message {
+    color: red;
+}
+
+.success-auth {
+    text-align: center;
+}
+
+/* Анкета */
+.questionnaire, .questionnaire-result {
+    text-align: center;
+}
+
+.questionnaire label {
+    display: block;
 }

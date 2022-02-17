@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc890d5-4598-410a-83ba-594b88bead49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/addtask(14.02.2022).php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Опрос.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addtask_16.02.2022.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,10 @@
       <workItem from="1644849135357" duration="23000" />
       <workItem from="1644856315988" duration="53000" />
       <workItem from="1644859551673" duration="9049000" />
-      <workItem from="1644923016246" duration="301000" />
+      <workItem from="1644923016246" duration="554000" />
+      <workItem from="1645023079829" duration="15000" />
+      <workItem from="1645032386951" duration="9408000" />
+      <workItem from="1645076953921" duration="22581000" />
     </task>
     <servers />
   </component>

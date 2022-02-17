@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 <main>
     <section class="about_me">
         <img class="my_photo" src="images/my_photo.jpg" alt="Фото" title="Мое фото">
-        <table>
+        <table class="about-me-table">
             <caption><h2>Школяр Андрей</h2></caption>
             <tr>
                 <td>
