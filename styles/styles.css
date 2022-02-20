@@ -270,3 +270,23 @@ hr {
 .questionnaire label {
     display: block;
 }
+
+/* Стили для страницы пользователя */
+.additional-pages {
+    text-align: center;
+    margin: 20px auto 20px;
+}
+
+.additional-pages a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.additional-pages a:hover {
+    border-bottom: 1px solid;
+}
+
+.user-bg-color {
+    text-align: center;
+}

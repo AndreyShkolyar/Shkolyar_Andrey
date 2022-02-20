@@ -2,6 +2,9 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 if (!empty($_POST)) {
     $authorizationSuccess = authorization();
+    if ($authorizationSuccess) {
+        header('Location: hello.php');
+    }
 }
 ?>
 <main>
@@ -41,6 +44,5 @@ if (!empty($_POST)) {
     <? } ?>
 </main>
 <?php
-$siteContent = file_get_contents(__FILE__);
 include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
 ?>

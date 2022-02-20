@@ -27,3 +27,9 @@ h1, h2 {
 .top_button {
     background-color: black;
 }
+
+/* Стили для страницы пользователя */
+
+.additional-pages a {
+    color: white;
+}

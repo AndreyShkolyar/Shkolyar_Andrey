@@ -1,6 +1,6 @@
 <?php
 
-function timesOfDay() {
+function nightStyles() {
     $serverHour = date('H');
     if ($serverHour >= 20 || $serverHour < 8) {
         echo '<link rel = "stylesheet" href = "styles/stylesNight.css">';
@@ -61,7 +61,50 @@ function authorization() {
         include $_SERVER['DOCUMENT_ROOT'] . '/users.php';
         if (in_array($_POST['login'], $users) && $_POST['password'] == $passwords[array_search($_POST['login'], $users)]) {
             $_POST['password'] = md5($_POST['password']);
+            $_SESSION['login'] = $_POST['login'];
+            $_SESSION['password'] = $_POST['password'];
+            $_SESSION['isAuthorized'] = true;
             return true;
-        } else return false;
+        } else {
+            $_SESSION['isAuthorized'] = false;
+            return false;
+        }
     }
+}
+
+function userBackgroundColorCookie() {
+    if (isset($_POST['colorSelected'])) {
+        switch ($_POST['userBGColor']) {
+            case 'default':
+                setcookie('bgColor', 'default');
+                break;
+            case 'blue':
+                setcookie('bgColor', 'blue');
+                break;
+            case 'violet':
+                setcookie('bgColor', 'violet');
+                break;
+            case 'red':
+                setcookie('bgColor', 'red');
+        }
+        header("Refresh: 0");
+    }
+}
+
+function setUserBackgroundColor() {
+    if (isset($_COOKIE['bgColor'])) {
+        switch ($_COOKIE['bgColor']) {
+            case 'default':
+                return '';
+                break;
+            case 'blue':
+                return 'style="background-color: #00BFFF;"';
+                break;
+            case 'violet':
+                return 'style="background-color: blueviolet;"';
+                break;
+            case 'red':
+                return 'style="background-color: crimson;"';
+        }
+    } else return '';
 }
