@@ -39,6 +39,11 @@ if (!empty($_POST)) {
                 </td>
             </tr>
             <?php } ?>
+            <tr>
+                <td>
+                    <a href="registration.php" title="Регистрация" style="text-decoration: none">Регистрация</a>
+                </td>
+            </tr>
         </table>
     </form>
     <? } ?>
