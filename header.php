@@ -23,7 +23,7 @@ userBackgroundColorCookie();
         <ul class="navigation-list">
             <li><a class="navigation_page" href="mendeleevTable.html" target="_blank" title="Таблица Менделеева">Таблица Менделеева</a></li>
             <li><a class="navigation_page" href="controlStructures.php" target="_blank" title="Перейти к заданию">Циклы PHP</a></li>
-            <li><a class="navigation_page" href="" target="_blank" title="Доп. задание">Дополнительное задание (16.02.2022)</a></li>
+            <li><a class="navigation_page" href="addtask_16.02.2022.php" target="_blank" title="Доп. задание">Дополнительное задание (16.02.2022)</a></li>
         </ul>
     </nav>
     <?php if (isset($_SESSION['isAuthorized']) && $_SESSION['isAuthorized'] == true) { ?>

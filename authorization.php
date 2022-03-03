@@ -1,7 +1,9 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/auth.php';
 if (!empty($_POST)) {
-    $authorizationSuccess = authorization();
+    $authorization = new auth($_POST['login'], $_POST['password']);
+    $authorizationSuccess = $authorization->authorization();
     if ($authorizationSuccess) {
         header('Location: hello.php');
     }
@@ -18,13 +20,13 @@ if (!empty($_POST)) {
             <tr>
                 <td>
                     <label for="login" style="display: block">Введите логин</label>
-                    <input type="text" id="login" name="login">
+                    <input type="text" id="login" name="login" required>
                 </td>
             </tr>
             <tr>
                 <td>
                     <label for="password" style="display: block">Введите пароль</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required>
                 </td>
             </tr>
             <tr>

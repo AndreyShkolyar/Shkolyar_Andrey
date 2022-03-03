@@ -55,7 +55,7 @@ function pageCount($page, $whatToCount) {
     } else return 0;
 }
 
-function databaseConnect() {
+/*function databaseConnect() {
     $hostname = 'localhost';
     $username = 'root';
     $password = '';
@@ -63,9 +63,9 @@ function databaseConnect() {
     $db_con = mysqli_connect($hostname, $username, $password, $dbname);
     mysqli_set_charset($db_con, 'UTF-8');
     return $db_con;
-}
+}*/
 
-function registration() {
+/*function registration() {
     $_POST['login'] = htmlspecialchars($_POST['login']);
     $login = $_POST['login'];
     $db_con = databaseConnect();
@@ -80,9 +80,9 @@ function registration() {
         mysqli_query($db_con, $query);
         return true;
     }
-}
+}*/
 
-function authorization() {
+/*function authorization() {
     if (!empty($_POST['login']) || !empty($_POST['password'])) {
         $_POST['login'] = htmlspecialchars($_POST['login']);
         $login = $_POST['login'];
@@ -105,7 +105,7 @@ function authorization() {
             return false;
         }
     }
-}
+}*/
 
 function userBackgroundColorCookie() {
     if (isset($_POST['colorSelected'])) {

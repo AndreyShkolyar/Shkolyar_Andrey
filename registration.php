@@ -1,8 +1,11 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/auth.php';
 if (!empty($_POST)) {
-    $registrationSuccess = registration();
-    if ($registrationSuccess == true) {
+    $_POST['login'] = htmlspecialchars($_POST['login']);
+    $registration = new auth($_POST['login'], $_POST['password']);
+    $registrationSuccess = $registration->registration();
+    if ($registrationSuccess) {
         header('Refresh:5; url=authorization.php');
     }
 }
